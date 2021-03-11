@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /* border:1px solid grey; */
+}
+
+html {
+    font-size:62.5%;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+body {
+    font-size:1.6rem;
+    list-style: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+section{
+    padding:4% 0%;
+}
+
+
+header {
+    margin:0% 0%;
+    
+}
+
+
+nav{
+    width:100%;
+    padding:2% 0%;
+    margin:0% 0%;
+    content: center;
+}
+
+nav a{
+    display: inline-block;
+    padding:1%;
+    width:10%;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: ;
+    padding:25% auto;
+}
+
+.orange{
+    background-color: #FF764E;
+}
+
+.blue{
+    background-color: #5ED3EB; 
+
+}
+
+.yellow{
+    background-color: #FFCD69;
+}
+
+
+.topcontent{
+    display:inline-block;
+
+}
+
+.topleft{
+    display: inline-block;
+    width:45%;
+    text-align: center;
+}
+
+.topleft img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.topright{
+    display: inline-block;
+    width:45%;
+    padding:10% auto;
+    text-align: center;
+    margin:1% 0%;
+    font-size: 5rem;
+}
+
+
+.topright p{
+    font-size: 2rem;;
+}
+
+.middlecontent {
+    display: inline-block;
+    text-align: center;
+    width:80%;
+    margin:0% 10%;
+    background-color: #DDB9A3;
+    color:white;
+    padding:2% 1%;
+    font-size: 2rem;
+}
+
+
+.fire{
+    margin:0% 40%;
+}
+
+.camper{
+    margin:0% 40%;
+}
+
+
+span{
+    font-weight: bold;
+}
+
+
+
+.footerimage {
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+    
+}
